@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large {
+  font-size: 1.25rem;
+}
+
+.display-1 {
+  font-size: 3.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-dark {
+  background: #2D8BF5;
+  border: none;
+  color: #FFF;
+}
+
+.btn-outline {
+  border: 1px solid #2D8BF5;
+  color: #2D8BF5;
+}
+
+/* Mainheader */
+#mainheader {
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #FFF;
+  /* Navbar */
+  /* Showcase */
+}
+#mainheader #navbar {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#mainheader #navbar a {
+  color: #fff;
+}
+#mainheader #navbar .logo {
+  float: left;
+  padding-top: 5px;
+  font-size: 40px;
+  height: 100px;
+  font-weight: 200;
+}
+#mainheader #navbar ul {
+  list-style: none;
+  float: right;
+}
+#mainheader #navbar ul li {
+  float: left;
+}
+#mainheader #navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#mainheader #showcase {
+  text-align: center;
+  padding-top: 350px;
+}
+#mainheader #showcase h1 {
+  font-weight: 300;
+}
+#mainheader #showcase a {
+  margin-top: 20px;
+}
+
+/* More */
+#features {
+  padding: 80px 0;
+}
+#features h2 {
+  line-height: 1.2em;
+  font-weight: 200;
+  padding-bottom: 40px;
+}
+#features .features-row {
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+#features .features-row-content {
+  padding-right: 40px;
+}
+#features .features-row-content p {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* Footer */
+#mainfooter {
+  background: #000;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  .display-1 {
+    font-size: 2rem;
+  }
+
+  /* More */
+  #features {
+    padding: 50px 0;
+  }
+  #features h2 {
+    padding-bottom: 20px;
+  }
+  #features .features-row {
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+  #features .features-row a {
+    margin-bottom: 20px;
+  }
+  #features .features-row-content {
+    padding-right: 0;
+  }
+  #features .features-row-content p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
